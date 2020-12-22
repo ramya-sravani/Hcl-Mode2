@@ -1,0 +1,23 @@
+<table>
+    <thead>
+    <tr>
+    <th>Code</th>
+    <th>Name</th>
+    <th>Gender</th>
+    <th>Annual Salary</th>
+    <th>Date of Birth</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor='let emp of employees'>
+    <td>{{emp.code}}</td>
+    <td>{{emp.name}}</td>
+    <td>{{emp.gender}}</td>
+    <td>{{emp.annualSalary}}</td>
+    <td>{{emp.dateOfBirth}}</td>
+    </tr>
+    <tr *ngIf="!employees || employees.length==0">
+      <td colspan="5">No data to show!</td>
+    </tr>
+    </tbody>
+   </table>
