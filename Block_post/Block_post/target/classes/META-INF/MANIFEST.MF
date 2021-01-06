@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: jpa_demo2
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: VIJAY BHASKAR
+Implementation-Vendor-Id: com.jpa_demo2
+Build-Jdk: 1.8.0_261
+Implementation-URL: https://spring.io/projects/spring-boot/jpa_demo2
+Created-By: Maven Integration for Eclipse
+
