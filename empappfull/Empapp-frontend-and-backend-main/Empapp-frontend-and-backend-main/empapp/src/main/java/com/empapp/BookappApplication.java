@@ -21,10 +21,10 @@ public class BookappApplication implements CommandLineRunner{
 	@Override
 	public void run(String... args) throws Exception {
 		System.out.println("rec are saved...");
-		empService.save(new Employee("Divya", 33));
-		empService.save(new Employee("Sravya", 30));
-		empService.save(new Employee("Krishna", 10));
-		empService.save(new Employee("kiyansh", 5));
+		empService.save(new Employee("Ramya", 33));
+		empService.save(new Employee("Sravani", 30));
+		empService.save(new Employee("Frooty", 10));
+		empService.save(new Employee("Nicky", 5));
 		
 		
 		
