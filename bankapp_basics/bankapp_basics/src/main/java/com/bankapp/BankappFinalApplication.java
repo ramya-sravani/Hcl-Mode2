@@ -35,9 +35,9 @@ public class BankappFinalApplication  implements CommandLineRunner{
 	public void run(String... args) throws Exception {
 		
 		
-//		Customer cust= new Customer("sai", "sai123", "admin", "nlr",
+//		Customer cust= new Customer("frooty", "frooty123", "admin", "nlr",
 //				"nlr", "5678129", "s@s.com", LocalDate.of(1986, Month.NOVEMBER, 12));
-//		Customer cust1= new Customer("harshi", "harshi123", "mgr", "nlr",
+//		Customer cust1= new Customer("ramya", "ramya123", "mgr", "nlr",
 //				"nlr", "985678129", "e@s.com", LocalDate.of(1982, Month.MAY, 21));
 //		
 //		customerService.addCustomer(cust);
